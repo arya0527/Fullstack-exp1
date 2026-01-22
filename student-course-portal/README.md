@@ -161,45 +161,29 @@ This creates an optimized production build in the `build/` folder.
 
 ## 📸 Screenshots
 
-### 1. Home Page
-![Home Page](./screenshots/home-page.png)
-*Landing page with hero section and feature cards*
+### 1. Home Page - Landing Screen
+![Home Page](./image.png)
+*Beautiful landing page with hero section, feature highlights, and call-to-action buttons*
 
-### 2. Navigation Bar
-![Navigation Bar](./screenshots/navbar.png)
-*Responsive navigation bar (desktop view)*
+### 2. Courses Browsing Page
+![Courses Page](./image-1.png)
+*Grid layout displaying 6 featured courses with enrollment options, difficulty levels, and instructor details*
 
-### 3. Mobile Navigation
-![Mobile Navigation](./screenshots/mobile-navbar.png)
-*Hamburger menu on mobile devices*
+### 3. Course Details & Enrollment
+![Course Details](./image-2.png)
+*Individual course cards showing full information with one-click enrollment functionality*
 
-### 4. Courses Page
-![Courses Page](./screenshots/courses-page.png)
-*Browse available courses with filters and enrollment*
+### 4. My Enrolled Courses
+![Enrolled Courses](./image-3.png)
+*Dashboard showing all courses user is enrolled in with progress tracking and learning options*
 
-### 5. Course Card Details
-![Course Card](./screenshots/course-card.png)
-*Individual course card showing details*
+### 5. User Feedback Page
+![Feedback Page](./image-4.png)
+*Interactive feedback form with 5-star ratings for individual courses and overall experience*
 
-### 6. My Enrolled Courses
-![Enrolled Courses](./screenshots/enrolled-courses.png)
-*View all courses you're enrolled in*
-
-### 7. Login Page
-![Login Page](./screenshots/login-page.png)
-*User login form*
-
-### 8. Registration Page
-![Register Page](./screenshots/register-page.png)
-*New user registration form*
-
-### 9. Feedback Page
-![Feedback Page](./screenshots/feedback-page.png)
-*Course feedback and rating form*
-
-### 10. Mobile Responsive Design
-![Mobile View](./screenshots/mobile-view.png)
-*Application on mobile device*
+### 6. Application Overview
+![App Overview](./image-5.png)
+*Complete application interface showcasing responsive design and navigation elements*
 
 ---
 
