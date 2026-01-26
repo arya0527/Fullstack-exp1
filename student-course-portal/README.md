@@ -162,7 +162,7 @@ This creates an optimized production build in the `build/` folder.
 ## 📸 Screenshots
 
 ### 1. Home Page - Landing Screen
-![Home Page](./image.png)
+![Home Page](image.png)
 *Beautiful landing page with hero section, feature highlights, and call-to-action buttons*
 
 ### 2. Courses Browsing Page
