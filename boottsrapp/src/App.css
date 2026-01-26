@@ -1,0 +1,81 @@
+.App {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+/* Header Styling */
+header {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 1rem;
+}
+
+/* Card Styling */
+.card {
+  transition: all 0.3s ease;
+  border-radius: 0.75rem;
+}
+
+.hover-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-icon {
+  font-size: 3rem;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Button Styling */
+.btn {
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer Styling */
+footer {
+  margin-top: auto;
+  border-top: 1px solid #dee2e6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.75rem;
+  }
+
+  .card-icon {
+    font-size: 2.5rem;
+  }
+}
+
+/* Container adjustments */
+.container-fluid {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Grid gap */
+.g-4 {
+  row-gap: 2rem !important;
+  column-gap: 2rem !important;
+}
