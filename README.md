@@ -146,8 +146,7 @@ This repository also contains three smaller React projects demonstrating routing
 **Aim:** Multi-page navigation using `react-router-dom` (Home, About, Contact) with a responsive navbar.
 
 **Requirements:** Node.js, npm, react, react-dom, react-router-dom, vite
-
-<img src="C:\Users\Arya\OneDrive\Desktop\exp1\multipageNAV\image.png" alt="Image not showing"/>
+![Experiment 3.2 Preview](<myapp/image.png>)
 **Folder structure:**
 ```
 multipageNAV/
