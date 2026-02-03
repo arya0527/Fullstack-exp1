@@ -31,8 +31,8 @@ multipageNAV/
 ```
 
 **Notes:** Uses `NavLink` for active link styling. If the page shows blank, install `react-router-dom` in that project and restart dev server: `npm install react-router-dom@latest`.
-![Experiment 3.1.1 Preview](<Portfolio/image.png>)
-![Experiment 3.1.2 Preview](<Portfolio/Screenshot 2026-02-03 140200.png>)
+![Multipagenavigation project preview showing home page with responsive navbar and hero section](<multipageNAV/image.png>)
+![Multipagenavigation project preview showing about page with navigation menu and content cards](<multipageNAV/Screenshot 2026-02-03 140200.png>)
 ---
 
 ## 🔹 SPA Navigation using Link Component
