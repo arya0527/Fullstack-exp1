@@ -55,6 +55,7 @@ myapp/
  └─ package.json
 ```
 ![Experiment 3.2 Preview](<myapp/image.png>)
+<img src="C:\Users\Arya\OneDrive\Desktop\exp1\multipageNAV\image.png" alt="Image not showing"/>
 **Notes:** Make sure `react-router-dom` is installed for navigation (`npm install react-router-dom`). The Home page contains a gradient hero and a centered white card.
 
 ---
