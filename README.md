@@ -1,136 +1,3 @@
-📘 Experiment 1 — Bootstrap UI Components  
-![Bootstrap UI](EXP2%20SCreeenshots/Screenshot%202026-01-26%20215831.png)
-
-📝 Overview  
-In this experiment, I explored Bootstrap UI components by building a simple React interface. The main goal was to understand how Bootstrap helps in designing clean and responsive layouts quickly.
-
-🎯 What I Learned  
-- How Bootstrap classes work in real projects  
-- Using spacing utilities for better alignment  
-- Creating UI sections using cards and forms  
-
-🧩 UI Elements Implemented  
-- Bootstrap Buttons (Primary & Secondary styles)  
-- Cards for content display  
-- Contact form (Name + Email input fields)  
-- Responsive container layout  
-
-🛠 Tools & Technologies  
-- React + Vite  
-- Bootstrap 5  
-- HTML / CSS  
-
-🚀 How to Run the Project  
-```bash
-cd ui-app
-npm install
-npm run dev
-```
-📸 Output Preview
--Buttons with multiple variants
--Card-based structure
--A basic contact form layout
-
-✅ Result
-This experiment helped me understand how Bootstrap simplifies UI building and makes the design responsive with minimal effort.
-
-
----
-
-
-📗 Experiment 2 — Card UI (Bootstrap)  
-![Experiment 2 Preview](<./EXP2 SCreeenshots/card.png>)
-
-📝 Overview  
-This experiment focuses on designing a clean **card-based interface** using Bootstrap. It highlights how cards can be used to present content in a structured and visually appealing way.
-
-🎯 Objectives  
-- Build UI using Bootstrap Card components  
-- Practice spacing, alignment and layout structure  
-- Improve UI presentation with Bootstrap utilities  
-
-🧩 Features Implemented  
-- Card layout with title, description, and buttons  
-- Responsive container styling  
-- Clean UI spacing using Bootstrap classes  
-
-🛠 Tech Used  
-- React (Vite)  
-- Bootstrap 5  
-- CSS  
-
-▶️ Run Project  
-```bash
-cd ui-app
-npm install
-npm run dev
-```
-
----
-
-
-📘 Experiment 3 — Responsive Navbar & Landing Page (Bootstrap)  
-![Experiment 3 Preview](EXP2%20SCreeenshots/Screenshot%202026-01-26%20215742.png)
-
-📝 Overview  
-In this experiment, I created a **responsive navigation bar** along with a **landing page layout** using Bootstrap. The main focus was on responsiveness and clean section structure.
-
-🎯 Objectives  
-- Create a responsive Bootstrap Navbar  
-- Design a landing page layout using Bootstrap utilities  
-- Understand layout responsiveness for different screen sizes  
-
-🧩 Features Implemented  
-- Responsive Navbar with menu links  
-- Hero/Landing section layout  
-- Bootstrap spacing and alignment utilities  
-- Mobile-friendly design  
-
-🛠 Tech Used  
-- React (Vite)  
-- Bootstrap 5  
-- CSS  
-
-▶️ Run Project  
-```bash
-cd ui-app
-npm install
-npm run dev
-```
-
-
-📕 Experiment 4 — Material UI Page  
-![Experiment 4 UI](<./EXP2 SCreeenshots/Screenshot 2026-01-26 215602.png>)
-
-📝 Overview  
-This experiment combines multiple Bootstrap components into a single page. It helped me practice designing a full UI with consistent styling and responsiveness.
-
-🎯 Key Learning  
-- Combining multiple UI components together  
-- Maintaining consistent spacing and layout  
-- Creating a complete responsive page  
-
-🧩 Components/Features  
-- Buttons + Cards + Form elements  
-- Responsive container & spacing utilities  
-- Clean UI alignment  
-
-🛠 Tech Stack  
-- React (Vite)  
-- Bootstrap 5  
-- CSS  
-
-🚀 Run Instructions
-```bash
-cd ui-app
-npm install
-npm run dev
-```
-
----
-
-# Additional Projects: multipageNAV · myapp · Portfolio
-
 This repository also contains three smaller React projects demonstrating routing, multi-page navigation, and a portfolio/profile page. Each project can be run independently.
 
 ## Quick start (for any project)
@@ -141,12 +8,12 @@ This repository also contains three smaller React projects demonstrating routing
 
 ---
 
-## 🔹 multipageNAV
+## 🔹Multi-Page Navigation (Home, About, Contact)
 
 **Aim:** Multi-page navigation using `react-router-dom` (Home, About, Contact) with a responsive navbar.
 
 **Requirements:** Node.js, npm, react, react-dom, react-router-dom, vite
-![Experiment 3.2 Preview](<myapp/image.png>)
+
 **Folder structure:**
 ```
 multipageNAV/
@@ -164,10 +31,11 @@ multipageNAV/
 ```
 
 **Notes:** Uses `NavLink` for active link styling. If the page shows blank, install `react-router-dom` in that project and restart dev server: `npm install react-router-dom@latest`.
-
+![Multipagenavigation project preview showing home page with responsive navbar and hero section](<multipageNAV/image.png>)
+![Multipagenavigation project preview showing about page with navigation menu and content cards](<multipageNAV/Screenshot 2026-02-03 140200.png>)
 ---
 
-## 🔹 myapp
+## 🔹 SPA Navigation using Link Component
 
 **Aim:** Small SPA with white navbar and gradient hero card. Shows basic UI design with client-side routing.
 
@@ -186,12 +54,12 @@ myapp/
  │  └─ main.jsx
  └─ package.json
 ```
-
-**Notes:** Make sure `react-router-dom` is installed for navigation (`npm install react-router-dom`). The Home page contains a gradient hero and a centered white card.
+![Experiment 3.2 Preview](<myapp/image.png>)
+**Notes:** Make sure `react-router-dom` is installed for navigation (`npm install reacyt-router-dom`). The Home page contains a gradient hero and a centered white card.
 
 ---
 
-## 🔹 Portfolio
+## 🔹  Dashboard & Profile Routing
 
 **Aim:** Personal portfolio/profile page for Arya Bhat with a centered profile card, avatar, bio, and skills list.
 
@@ -205,7 +73,7 @@ Portfolio/
  │  └─ main.jsx
  └─ package.json
 ```
-
+![Experiment 3.3 Preview](<Portfolio/image.png>)
 **Notes:** Swap `src/assets/arya.svg` for a real photo (e.g., `arya.jpg`) and update `App.jsx` if you want a photo instead of the SVG.
 
 ---
