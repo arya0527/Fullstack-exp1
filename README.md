@@ -120,9 +120,100 @@ This experiment combines multiple Bootstrap components into a single page. It he
 - Bootstrap 5  
 - CSS  
 
-🚀 Run Instructions  
+🚀 Run Instructions
 ```bash
 cd ui-app
 npm install
 npm run dev
 ```
+
+---
+
+# Additional Projects: multipageNAV · myapp · Portfolio
+
+This repository also contains three smaller React projects demonstrating routing, multi-page navigation, and a portfolio/profile page. Each project can be run independently.
+
+## Quick start (for any project)
+1. cd into the project folder (e.g., `cd multipageNAV`)
+2. npm install
+3. npm run dev
+4. Open the URL shown by Vite (usually http://localhost:5173 or http://localhost:5174)
+
+---
+
+## 🔹 multipageNAV
+
+**Aim:** Multi-page navigation using `react-router-dom` (Home, About, Contact) with a responsive navbar.
+
+**Requirements:** Node.js, npm, react, react-dom, react-router-dom, vite
+
+**Folder structure:**
+```
+multipageNAV/
+ ├─ src/
+ │  ├─ components/
+ │  │  └─ Navbar.jsx
+ │  ├─ pages/
+ │  │  ├─ Home.jsx
+ │  │  ├─ About.jsx
+ │  │  └─ Contact.jsx
+ │  ├─ App.jsx
+ │  ├─ App.css
+ │  └─ main.jsx
+ └─ package.json
+```
+
+**Notes:** Uses `NavLink` for active link styling. If the page shows blank, install `react-router-dom` in that project and restart dev server: `npm install react-router-dom@latest`.
+
+---
+
+## 🔹 myapp
+
+**Aim:** Small SPA with white navbar and gradient hero card. Shows basic UI design with client-side routing.
+
+**Folder structure:**
+```
+myapp/
+ ├─ src/
+ │  ├─ components/
+ │  │  └─ Navbar.jsx
+ │  ├─ pages/
+ │  │  ├─ Home.jsx
+ │  │  ├─ About.jsx
+ │  │  └─ Contact.jsx
+ │  ├─ pages/Pages.css
+ │  ├─ App.jsx
+ │  └─ main.jsx
+ └─ package.json
+```
+
+**Notes:** Make sure `react-router-dom` is installed for navigation (`npm install react-router-dom`). The Home page contains a gradient hero and a centered white card.
+
+---
+
+## 🔹 Portfolio
+
+**Aim:** Personal portfolio/profile page for Arya Bhat with a centered profile card, avatar, bio, and skills list.
+
+**Folder structure:**
+```
+Portfolio/
+ ├─ src/
+ │  ├─ assets/ (profile SVG / images)
+ │  ├─ App.jsx
+ │  ├─ App.css
+ │  └─ main.jsx
+ └─ package.json
+```
+
+**Notes:** Swap `src/assets/arya.svg` for a real photo (e.g., `arya.jpg`) and update `App.jsx` if you want a photo instead of the SVG.
+
+---
+
+## Final Notes
+- For a production build run `npm run build` in any project, then `npm run preview` to test the build locally.
+- If you want, I can add screenshots and per-project README files and link to them here.
+
+---
+
+✍️ Developed / Maintained by Arya Bhat

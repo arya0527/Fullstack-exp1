@@ -1,0 +1,32 @@
+/* Basic navbar styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  background: #0f1724;
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.12);
+}
+
+.navbar .logo {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.navbar nav a {
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: 600;
+}
+
+.navbar nav a.active {
+  color: #60a5fa;
+}
+
+@media (max-width: 640px) {
+  .navbar { padding: 0.75rem; }
+  .navbar nav a { margin-left: 0.6rem; }
+}
